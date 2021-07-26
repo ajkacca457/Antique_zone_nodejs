@@ -1,0 +1,19 @@
+{
+  "name": "antique_zone_nodejs",
+  "version": "1.0.0",
+  "description": "project for showing antique items",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajkacca457/Antique_zone_nodejs.git"
+  },
+  "author": "Avijit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajkacca457/Antique_zone_nodejs/issues"
+  },
+  "homepage": "https://github.com/ajkacca457/Antique_zone_nodejs#readme"
+}
