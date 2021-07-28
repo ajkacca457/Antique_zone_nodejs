@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ajkacca457/Antique_zone_nodejs/issues"
   },
-  "homepage": "https://github.com/ajkacca457/Antique_zone_nodejs#readme"
+  "homepage": "https://github.com/ajkacca457/Antique_zone_nodejs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }

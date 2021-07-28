@@ -2,11 +2,10 @@ const http = require("http");
 const url= require("url");
 const fs= require("fs");
 
-
+const homepage= fs.readFileSync(`${__dirname}/templates/Home.html`);
 const itemdata= fs.readFileSync("./items.json", "utf-8");
 const itemObj= JSON.parse(itemdata);
 
-console.log(itemObj);
 
 const server= http.createServer((req,res)=>{
 
@@ -17,7 +16,7 @@ const server= http.createServer((req,res)=>{
             res.writeHead(200, {
                 "Content-type":"text/html"
             })
-            res.end("<h1>Homepage</h1>")
+            res.end(homepage)
 
             case "/about":           
             res.writeHead(200, {
