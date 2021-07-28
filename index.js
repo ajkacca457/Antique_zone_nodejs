@@ -3,6 +3,7 @@ const url= require("url");
 const fs= require("fs");
 
 const homepage= fs.readFileSync(`${__dirname}/templates/Home.html`);
+const aboutpage= fs.readFileSync(`${__dirname}/templates/About.html`)
 const itemdata= fs.readFileSync("./items.json", "utf-8");
 const itemObj= JSON.parse(itemdata);
 
@@ -22,7 +23,7 @@ const server= http.createServer((req,res)=>{
             res.writeHead(200, {
                 "Content-type":"text/html"
             })
-            res.end("<h1>AboutPage</h1>")
+            res.end(aboutpage)
 
             case "/items":           
             res.writeHead(200, {
@@ -34,7 +35,7 @@ const server= http.createServer((req,res)=>{
             res.writeHead(200, {
                 "Content-type":"text/html"
             })
-            res.end("<h1>sending data from shop</h1>")
+            res.end(homepage)
     }    
 
 })
