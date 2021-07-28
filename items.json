@@ -1,7 +1,7 @@
 [
     {
         "name": "Mixed lot of vintage antique items",
-        "image":"./images/item1.jpg",
+        "image":"https://i.etsystatic.com/10269666/r/il/a8930f/2933294128/il_794xN.2933294128_qkae.jpg",
         "price": "€63.56",
         "materials": " Metal, Gilt, Wood, Plastic, Silver, Glass, Paper, Rolled gold, Sterling silver, Bone, Bakelite, Enamel, Diamanté",
         "description": "Antique items destash various sizes/ages and conditions you will receive all items on foto",
@@ -9,7 +9,7 @@
     },
     {
         "name": "Antique items destash",
-        "image":"./images/item2.jpg",
+        "image":"https://i.etsystatic.com/25949335/r/il/fefeda/2983427519/il_794xN.2983427519_ngt0.jpg",
         "price": "€50.00",
         "materials": " Metal, Gilt, Wood, Plastic, Silver, Glass, Paper, Rolled gold, Sterling silver, Bone, Bakelite, Enamel, Diamanté",
         "description": "Antique items destash various sizes/ages and conditions you will receive all items on foto",
@@ -17,24 +17,15 @@
     },
     {
         "name": "Tsar's belt of 1891 / Gold-plated silver 84 standart",
-        "image":"./images/item2.jpg",
+        "image":"https://i.etsystatic.com/28221052/r/il/72e5cd/3155150683/il_794xN.3155150683_lo05.jpg",
         "price": "€2,612.24",
         "materials": " Gold plated silver, silver, 84 standart, Gold insert, Vintage, Handmade, Authors work",
         "description": "Tsar's belt of 1891 / Gold-plated silver 84 standart/ Author work/ Brand of the master / Purse for coins / Collectible item / Handmade / Art gift / Total weight 1014 grams . Vintage.",
         "Location": "Czech Republic"
     },
-    {
+     {
         "name": "WWII US Army Pocket Compass and Horse Pin",
-        "image":"./images/item3.jpg",
-        "price": "€169.09",
-        "materials": "Metal, silver and gold",
-        "description": "Working vintage US pocket compass from WW2, marked 14242 W. Fantastic collectors piece. Also included is a 5 inch military issue horse blanket or laundry pin. In very good condition, opens and closes easily.",
-        "Location": "United States"
-    }
-    ,
-    {
-        "name": "WWII US Army Pocket Compass and Horse Pin",
-        "image":"./images/item4.jpg",
+        "image":"https://i.etsystatic.com/30329957/r/il/02f702/3224065139/il_794xN.3224065139_qytw.jpg",
         "price": "€169.09",
         "materials": "Metal, silver and gold",
         "description":" Working vintage US pocket compass from WW2, marked 14242 W. Fantastic collectors piece. Also included is a 5 inch military issue horse blanket or laundry pin. In very good condition, opens and closes easily.",
@@ -43,7 +34,7 @@
     ,
     {
         "name": "Old Silver US Coin",
-        "image":"./images/item5.jpg",
+        "image":"https://i.etsystatic.com/23174569/r/il/ecc70f/3039742170/il_794xN.3039742170_9a4x.jpg",
         "price": "€309.88",
         "materials": "Silver, Half Dollar, Coin",
         "description": "Sale Item, Old Silver US Barber Coin 1908 D. Collectable high grade Silver half Dollar .Vintage Silver US currency. Antique high grade Silver Half Dollar, Uncirculated Condition-Excellent Detail and Luster.A Great Old collectible Antique us coin.",
