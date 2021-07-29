@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>{% name %}</title>
+  <title>{%name%}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -70,13 +70,13 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="http://127.0.0.1:8000/">HOME</a>
+          <a class="nav-link active" aria-current="page" href="/">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="http://127.0.0.1:8000/about">ABOUT</a>
+          <a class="nav-link" href="/about">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ITEMS</a>
+          <a class="nav-link" href="/items">ITEMS</a>
         </li>
       </ul>
     </div>
@@ -84,16 +84,16 @@
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h1 class="bg-secondary w-50 mx-auto my-3">{% name %}</h1>
+<div class="container-fluid bg-1 text-center rounded">
+  <h1 class="bg-dark w-50 mx-auto my-3 rounded py-1">{%name%}</h1>
   <div class="d-block d-md-flex justify-content-center w-75 mx-auto">
-    <img src="{% image %}" class="d-img" >
+    <img src="{%image%}" class="d-img rounded" >
   </div>
-<div class="bg-white w-75 mx-auto p-1">
-    <h4 class="text-dark"> <strong>Price :</strong> {% price %}</h4>
-    <h6 class="text-secondary"><strong>Location:</strong> {% location %}</h6>
-    <p class="text-dark"><strong>Materials : </strong> {% materials %}</p>
-    <p class="text-dark"><strong>Description : </strong> {% description %}</p>
+<div class="bg-white w-75 mx-auto p-1 rounded">
+    <h4 class="text-dark"> <strong>Price :</strong> {%price%}</h4>
+    <h6 class="text-secondary"><strong>Location:</strong> {%location%}</h6>
+    <p class="text-dark"><strong>Materials : </strong> {%materials%}</p>
+    <p class="text-dark"><strong>Description : </strong> {%description%}</p>
 
 
 </div>
